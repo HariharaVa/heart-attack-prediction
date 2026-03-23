@@ -3,6 +3,12 @@ import pickle
 import numpy as np
 import time
 
+st.set_page_config(
+    page_title="Heart Attack Analysis",
+    page_icon="❤️",
+    layout="centered"
+)
+
 # Load model
 model = pickle.load(open('model.pkl', 'rb'))
 
